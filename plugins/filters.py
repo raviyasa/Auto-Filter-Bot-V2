@@ -78,7 +78,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b> Here is the result for {message.text}</b>",
+                f"<b> Here is the result for {message.text}</b>\n\n<b>©️ Developed By</b> [Bot Shadows](https://t.me/media_bot_updates)",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
